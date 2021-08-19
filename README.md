@@ -13,10 +13,6 @@ https://nulib.github.io/admin-react-components/styleguide/
 Add the package to your React project:
 
 ```
-# Yarn
-yarn add @nulib/admin-react-components
-
-# NPM
 npm install --save @nulib/admin-react-components
 ```
 
@@ -29,17 +25,13 @@ To develop in the component repository:
 3. Install dependencies
 
 ```
-# Yarn
-yarn install
-
-# NPM
 npm install
 ```
 
 Use Styleguidis for a development environment. Run:
 
 ```
-yarn styleguide
+npm run styleguide
 ```
 
 which will spin up a local Styleguidist webpack dev server that handles live-reloading as you write tests, build out components, and write documentation.
@@ -47,10 +39,10 @@ which will spin up a local Styleguidist webpack dev server that handles live-rel
 ## Running the tests
 
 ```
-yarn test
+npm run test
 
 // or
-yarn test:watch
+npm run test:watch
 ```
 
 ## Building the package
@@ -58,13 +50,13 @@ yarn test:watch
 To build the package, we use Rollup:
 
 ```
-yarn build
+npm run build
 ```
 
 To directly build the latest version of the style guide:
 
 ```
-yarn styleguide:build
+npm run styleguide:build
 ```
 
 ## ADR
